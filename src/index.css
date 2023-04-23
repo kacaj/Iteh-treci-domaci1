@@ -5,9 +5,50 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url(https://i.pinimg.com/736x/0f/c1/e9/0fc1e9bcf94eb1c8bda1f2be6db0a3d8--gold-glitter-nail.jpg);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.pretraga {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.card{
+  border-radius: 15%;
+  border-color: brown;
+  border-width: 15px;
+  border-style: double;
+}
+
+.btn-primary{
+   background-color: brown;
+   border-color: azure;
+   height: 100px;
+   width: 300px;
+   font-size: large;
+}
+
+.btn-success{
+  background-color: brown;
+  border-color: azure;
+}
+
+.info {
+  color: white;
+}
+
+.form-control{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  height: 100px;
+  width: 800px;
+  border-color: brown;
+  border-style: double;
+  border-width: 15px;
 }
